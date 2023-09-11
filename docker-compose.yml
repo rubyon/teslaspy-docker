@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  teslaspy:
+    image: hub.rubyon.co.kr/teslaspy
+    container_name: teslaspy
+    network_mode: host
+    restart: unless-stopped
+    tty: true
+    environment:
+      - TZ=Asia/Seoul
+      - ID=rubyon
+      - PASSWORD=rubyon
+    volumes:
+      - ./cache.json:/cache.json
