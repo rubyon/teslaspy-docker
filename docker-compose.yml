@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   teslaspy:
-    image: hub.rubyon.co.kr/teslaspy
+    image: hub.rubyon.co.kr/teslaspy:latest
     container_name: teslaspy
     network_mode: host
     restart: unless-stopped
