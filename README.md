@@ -25,3 +25,6 @@ docker exec -it teslaspy /app/venv/bin/python auth.py %email% 를 실행 합니�
 최초 아이디와 비번은 rubyon / rubyon 입니다.
 
 이 부분은 docker-compose.yml 에서 수정 가능 합니다.
+
+*네트워크 상태에 따라 간혈적으로 애프터블로우 시작과 종료가 안될수 있습니다.
+네트워크가 연결되면 다시 시도하게 만들었으나 더블체크 부탁드립니다.
