@@ -11,4 +11,5 @@ services:
       - ID=rubyon
       - PASSWORD=rubyon
     volumes:
-      - ./cache.json:/cache.json
+      - ./cache.json:/app/cache.json
+      - ./teslaspy_settings.json:/app/teslaspy_settings.json
