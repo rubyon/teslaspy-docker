@@ -14,9 +14,9 @@ docker-compose up -d
 
 다시 도커가 설치된 터미널로 돌아와
 
-docker exec -it teslaspy /app/venv/bin/python auth.py <email> 를 실행 합니다.
+docker exec -it teslaspy /app/venv/bin/python auth.py %email% 를 실행 합니다.
 
-여기서 <email> 은 테슬라 계정 입니다.
+여기서 %email% 은 테슬라 계정 입니다.
 
 이후 시키는 대로 인증을 마치면
 
