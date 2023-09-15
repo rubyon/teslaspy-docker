@@ -13,3 +13,13 @@ services:
     volumes:
       - ./cache.json:/app/cache.json
       - ./teslaspy_settings.json:/app/teslaspy_settings.json
+
+  teslaspy-redis:
+      container_name: teslaspy-redis
+      image: redis:6-alpine
+      command: redis-server --requirepass 'RubyOnStudio'
+      restart: unless-stopped
+      ports:
+        - 1268:6379
+      volumes:
+        - ./redis:/data
