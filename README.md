@@ -54,3 +54,9 @@ docker-compose pull 명령어로 이미지를 새로 받아 컨테이너를 다�
 - http auth 의 ID 와 PASSWORD 를 설정하지 않아도 실행 가능 하도록 수정
 
 * 업데이트 후 이상동작을 한다면 모든 파일을 삭제후 git clone ... 명령부터 다시 해봐 주세요.
+
+설치에 어려움이 있으신 분들은
+
+https://open.kakao.com/o/gtgDrDGf
+
+오픈 채팅을 통해 지원 받으세요
