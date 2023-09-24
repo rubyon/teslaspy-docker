@@ -32,11 +32,13 @@ Refresh Token 은
 
 docker-compose pull 명령어로 이미지를 새로 받아 컨테이너를 다시 생성해주세요.
 
+- Refresh Token 영역 Textarea 태그로 교체 및 UI Round R 값 변경
+
+## 이전 업데이트 내역.
+
 - 불필요한 logging 주석처리
 
 - Refresh Token 생성이 가능한 모바일 앱 링크 추가
-
-## 이전 업데이트 내역.
 
 - 설정 문구 추가
 
