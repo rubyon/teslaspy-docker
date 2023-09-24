@@ -10,17 +10,15 @@ docker-compose up -d
 
 테슬라 이메일 계정과 다른 부분을 설정 하시고 저장을 합니다.
 
-이후
+Refresh Token 은
 
-다시 도커가 설치된 터미널로 돌아와
+안드로이드폰은 https://play.google.com/store/apps/details?id=net.leveugle.teslatokens
 
-docker exec -it teslaspy /app/venv/bin/python auth.py %email% 를 실행 합니다.
+아이폰은 https://apps.apple.com/us/app/auth-app-for-tesla/id1552058613
 
-여기서 %email% 은 테슬라 계정 입니다.
+를 설치 하신 후 테슬라 아이디 로그인을 통해 Refresh Token 생성이 가능 합니다.
 
-이후 시키는 대로 인증을 마치면
-
-애프터블로우 기능을 이용 가능 합니다.
+모든 설정이 끝나면 애프터블로우 기능을 이용 가능 합니다.
 
 최초 아이디와 비번은 rubyon / password 입니다.
 
@@ -34,9 +32,11 @@ docker exec -it teslaspy /app/venv/bin/python auth.py %email% 를 실행 합니�
 
 docker-compose pull 명령어로 이미지를 새로 받아 컨테이너를 다시 생성해주세요.
 
-- redis 비밀번호 제거 및 메인 컨테이너 네트워크모드 변경
+- 기존 로그인 방식을 refresh token 입력 방식으로 변경
 
 ## 이전 업데이트 내역.
+
+- redis 비밀번호 제거 및 메인 컨테이너 네트워크모드 변경
 
 - 비정상 종료 후 재실행 안되는 문제 해결
 
