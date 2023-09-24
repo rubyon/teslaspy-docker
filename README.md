@@ -22,7 +22,7 @@ docker exec -it teslaspy /app/venv/bin/python auth.py %email% 를 실행 합니�
 
 애프터블로우 기능을 이용 가능 합니다.
 
-최초 아이디와 비번은 rubyon / rubyon 입니다.
+최초 아이디와 비번은 rubyon / password 입니다.
 
 이 부분은 docker-compose.yml 에서 수정 가능하며 설정 없이도 사용 가능 합니다.
 

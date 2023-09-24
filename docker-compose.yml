@@ -10,7 +10,7 @@ services:
     environment:
       - TZ=Asia/Seoul
       - ID=rubyon
-      - PASSWORD=rubyon
+      - PASSWORD=password
     volumes:
       - ./cache.json:/app/cache.json
       - ./teslaspy_settings.json:/app/teslaspy_settings.json
