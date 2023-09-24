@@ -32,9 +32,11 @@ Refresh Token 은
 
 docker-compose pull 명령어로 이미지를 새로 받아 컨테이너를 다시 생성해주세요.
 
-- Refresh Token 영역 Textarea 태그로 교체 및 UI Round R 값 변경
+- 보유 차량수를 6대에서 5대로 수정
 
 ## 이전 업데이트 내역.
+
+- Refresh Token 영역 Textarea 태그로 교체 및 UI Round R 값 변경
 
 - 불필요한 logging 주석처리
 
@@ -52,11 +54,11 @@ docker-compose pull 명령어로 이미지를 새로 받아 컨테이너를 다�
 
 - 운행종료시 공조기가 꺼져 있으면 애프터블로우 동작 안함 기능 추가
 
-위 두 커밋을 원복 함.
-
 - 설정 문구 수정
 
 - 운행종료시 공조기가 꺼져 있으면 애프터블로우 동작 안함 기능 추가
+
+위 두 커밋을 원복 함.
 
 - http auth 의 ID 와 PASSWORD 를 설정하지 않아도 실행 가능 하도록 수정
 
