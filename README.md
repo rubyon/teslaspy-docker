@@ -32,9 +32,11 @@ Refresh Token 은
 
 docker-compose pull 명령어로 이미지를 새로 받아 컨테이너를 다시 생성해주세요.
 
-- 보유 차량수를 6대에서 5대로 수정
+- 배터리게이지 추가
 
 ## 이전 업데이트 내역.
+
+- 보유 차량수를 6대에서 5대로 수정
 
 - Refresh Token 영역 Textarea 태그로 교체 및 UI Round R 값 변경
 
