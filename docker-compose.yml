@@ -11,6 +11,8 @@ services:
       - TZ=Asia/Seoul
       - ID=rubyon
       - PASSWORD=password
+      - RAILS_PORT=1267
+      - REDIS_URL=redis://teslaspy-redis:6379/1
     volumes:
       - ./cache.json:/app/cache.json
       - ./teslaspy_settings.json:/app/teslaspy_settings.json
